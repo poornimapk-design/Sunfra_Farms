@@ -2,7 +2,7 @@
 session_start();
 date_default_timezone_set('Asia/Kolkata');
  
-$current_feature = "Shead Supervisor"; // Set per page
+$current_feature = "Shead Supervisor"; 
  
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     header("Location: ../login/login.php");
@@ -320,6 +320,7 @@ foreach ($shead_data as $item) {
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/feed_raw_material_json_to_web.php'">📥 Feed Raw Material</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/feed_to_shead_json_to_web.php'">🚚 Feed Material To Shead</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/water_medicine_json_to_web.php'">🧪 Water Medicine</button>
+	  <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/dosing_pump_live_dashboard.php'">Dosing pump system</button>
     </div>
   </div>
 
@@ -332,7 +333,7 @@ foreach ($shead_data as $item) {
       <button onclick="location.href='https://sunfra.com/farm/sunfra/egg_godown/egg_godown_stock_json_to_web.php'">🥚 Egg Production From Shead</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/egg_godown/egg_godown_sale_json_to_web.php'">💰 Eggs for Sale</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/egg_godown/egg_weight_json_to_web.php'">⚖️ Egg Weight</button>
-    	<button onclick="location.href='https://sunfra.com/farm/sunfra/egg_godown/egg_damaged_json_to_web.php'">⚖️ Weekly Egg Damages</button>
+		<button onclick="location.href='https://sunfra.com/farm/sunfra/egg_godown/egg_damaged_json_to_web.php'">⚖️ Weekly Egg Damages</button>
     </div>
   </div>
 

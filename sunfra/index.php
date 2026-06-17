@@ -766,7 +766,7 @@ $windspeed = $windspeedF ?? 'N/A';
 		<button onclick="location.href='https://sunfra.com/farm/iot_part/feed_trolly_setting_web_page.php'">
 				🚜 Feed Trolly Data
 		</button>
-		<button onclick="location.href='https://sunfra.com/farm/sensor/expo_sensor/water_data_web_page.php'">
+		<button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/dosing_pump_live_dashboard.php'">
 				Dosing pump system
 		</button>
 

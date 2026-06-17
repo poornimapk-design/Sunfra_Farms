@@ -50,7 +50,7 @@ foreach ($mac_to_shead as $mac => $shead) {
             $all_within_5min = true;
 
             for ($j = 1; $j <= 4; $j++) {
-                if (($timestamps[$i + $j] - $base_time) > 300) {
+                if (($timestamps[$i + $j] - $base_time) > 100) {
                     $all_within_5min = false;
                     break;
                 }

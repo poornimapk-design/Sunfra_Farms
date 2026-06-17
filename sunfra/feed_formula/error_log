@@ -63,3 +63,5 @@ Stack trace:
 #0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/feed_formula/feed_formula_json.php(76): mysqli_stmt->execute()
 #1 {main}
   thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/feed_formula/feed_formula_json.php on line 76
+[10-Jun-2026 04:05:39 America/Chicago] PHP Warning:  Undefined array key "client_id" in /home2/sunfra/public_html/sunfra.com/farm/sunfra/feed_formula/feed_formula_json.php on line 12
+[10-Jun-2026 04:47:21 America/Chicago] PHP Warning:  Undefined array key "client_id" in /home2/sunfra/public_html/sunfra.com/farm/sunfra/feed_formula/feed_formula_json.php on line 12

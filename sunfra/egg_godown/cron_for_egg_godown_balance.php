@@ -25,7 +25,7 @@ function gettotaleggs($trays) {
     return $total_no_of_eggs;
 }
 
-$shead_queries = ['shead 1', 'shead 2', 'shead 3', 'shead 4', 'shead 5', 'shead 6', 'shead 7', 'shead 8'];
+$shead_queries = ['shead 1', 'shead 2', 'shead 3', 'shead 4', 'shead 5', 'shead 6', 'shead 7', 'shead 8', 'shead 9'];
 
 $date_condition = date("Y-m-d");
 foreach ($shead_queries as $shead) {
