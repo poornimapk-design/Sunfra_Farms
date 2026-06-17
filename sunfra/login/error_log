@@ -1,0 +1,146 @@
+[17-Mar-2026 19:45:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:45:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:46:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:46:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:46:05 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:47:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:48:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:48:34 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:48:39 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:50:49 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:51:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[17-Mar-2026 19:53:42 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'lakshminarasimha' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[10-Apr-2026 06:18:47 America/Chicago] PHP Warning:  file_get_contents(https://sunfra.com/farm/sunfra/login/farm_users_json.php): Failed to open stream: HTTP request failed! in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/login.php on line 4
+[27-Apr-2026 11:16:20 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'anand' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[27-Apr-2026 11:16:46 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'anand' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[27-Apr-2026 11:16:53 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'anand' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[03-Jun-2026 18:14:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Sagar' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[03-Jun-2026 18:15:13 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Sagar' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[03-Jun-2026 18:15:46 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Sagar' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[12-Jun-2026 17:44:50 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Sagar' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[12-Jun-2026 17:44:53 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Sagar' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[12-Jun-2026 17:44:55 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Sagar' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[12-Jun-2026 17:46:13 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Sagar' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[16-Jun-2026 17:54:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'kalavathi' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[16-Jun-2026 17:55:17 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'kalavathi' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[16-Jun-2026 17:55:18 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'kalavathi' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[16-Jun-2026 17:56:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'kalavathi' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[16-Jun-2026 17:56:33 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'kalavathi' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[16-Jun-2026 17:56:33 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'kalavathi' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29
+[16-Jun-2026 17:57:21 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'kalavathi' for key 'username' in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php:29
+Stack trace:
+#0 /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home2/sunfra/public_html/sunfra.com/farm/sunfra/login/client_user_save.php on line 29

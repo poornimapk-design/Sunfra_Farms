@@ -2,10 +2,8 @@
 session_start();
 date_default_timezone_set('Asia/Kolkata');
 
-// 🔹 Set feature name for this page
 $current_feature = "Attendance";  
 
-// 1. Login check
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     header("Location: ../login/login.php");
     exit;
@@ -20,7 +18,6 @@ if (empty($username) || !$client_id) {
     exit;
 }
 
-// 2. Admin check
 $users_url = "https://sunfra.com/farm/sunfra/login/farm_users_list.php";
 $users_response = @file_get_contents($users_url);
 
@@ -50,7 +47,6 @@ if (is_array($users)) {
     }
 }
 
-// 3. Feature check (only for non-admins)
 if (!$is_admin) {
     $feature_url = "https://sunfra.com/farm/sunfra/configuration/config_supervisor_json.php?client_id=" . urlencode($client_id);
     $feature_response = @file_get_contents($feature_url);
@@ -87,7 +83,6 @@ if (!$is_admin) {
     }
 }
 
-// ✅ At this point: User is logged in, admin OR has access to this feature
 ?>
 
 <!DOCTYPE html>
@@ -323,6 +318,7 @@ if (!$is_admin) {
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/feed_raw_material_json_to_web.php'">📥 Feed Raw Material</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/feed_to_shead_json_to_web.php'">🚚 Feed Material To Shead</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/water_medicine_json_to_web.php'">🧪 Water Medicine</button>
+	  <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/dosing_pump_live_dashboard.php'">Dosing pump system</button>
     </div>
   </div>
 

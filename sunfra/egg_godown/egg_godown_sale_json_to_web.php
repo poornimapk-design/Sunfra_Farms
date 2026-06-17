@@ -109,7 +109,7 @@ foreach ($shead_data as $shead) {
 
 $date = date('Y-m-d'); 
 
-$api_url = "https://sunfra.com/farm/sunfra/egg_godown/egg_godown_party_name.php?client_id=$client_id";
+$api_url = "https://sunfra.com/farm/sunfra/egg_godown/egg_godown_party_name.php?client_id=$client_id&date=$date";
 $response = file_get_contents($api_url);
 
 $party_names = json_decode($response, true);
@@ -457,6 +457,7 @@ $party_names = json_decode($response, true);
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/feed_raw_material_json_to_web.php'">📥 Feed Raw Material</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/feed_to_shead_json_to_web.php'">🚚 Feed Material To Shead</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/water_medicine_json_to_web.php'">🧪 Water Medicine</button>
+	  <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/dosing_pump_live_dashboard.php'">Dosing pump system</button>
     </div>
   </div>
 
@@ -538,12 +539,6 @@ $party_names = json_decode($response, true);
 		<form id="entryForm" action="" method="post">
 		  <input type="hidden" name="id" id="form_id">
 		  <div class="form-row">
-			  <div class="form-group">
-				<label for="entry_date">Date</label>
-				<input type="date" id="entry_date" name="entry_date" required>
-			  </div>
-			</div>
-		  <div class="form-row">
 			<div class="form-group">
 			  <label for="shead_name">Shead Name</label>
 			  <select id="shead_name" name="shead_name" class="form-control" required>
@@ -608,10 +603,6 @@ $party_names = json_decode($response, true);
 	  <div class="modal-content">
 		<span class="close" onclick="closeDamageModal()">&times;</span>
 		<form id="damageForm" action="" method="post">
-		<p>
-		  <label for="damage_entry_date">Date:</label>
-		  <input type="date" name="damage_entry_date" id="damage_entry_date" required>
-		</p>
 		  <p>
 			<label for="damage_shead_name">Shead Name:</label>
 			<select name="shead_name" id="damage_shead_name" required>
@@ -711,10 +702,8 @@ $party_names = json_decode($response, true);
  function openEditModal(data) {
 	  const modal = document.getElementById('entryModal');
 	  modal.style.display = 'block';
-		
+
 	  document.getElementById('form_id').value = data.id || '';
-	  document.getElementById('entry_date').value =
-		data.timestamp ? data.timestamp.split(' ')[0] : new Date().toISOString().split('T')[0];
 	  
 	  setSheadSelect(data.shead_name);
 
@@ -778,19 +767,18 @@ $party_names = json_decode($response, true);
     const sale = document.getElementById("sale").value;
     const sale_price = document.getElementById("sale_price").value;
     const remarks = document.getElementById("remarks").value;
-	const entry_date = document.getElementById("entry_date").value;
 
-	const payload = {
-	  id,
-	  client_id: clientId,
-	  date: entry_date,
-	  shead_name,
-	  no_of_eggs,
-	  type_of_eggs,
-	  sale,
-	  sale_price,
-	  remarks,
-	};
+    const payload = {
+      id,
+      client_id: clientId,
+      shead_name,
+      no_of_eggs,
+      type_of_eggs,
+      sale,
+      sale_price,
+      remarks,
+    };
+
     try {
       const response = await fetch(saveApiUrl, {
         method: "POST",
@@ -814,12 +802,10 @@ $party_names = json_decode($response, true);
     }
   });
 
+  fetchEggData();
   document.getElementById("damageEggsBtn").addEventListener("click", () => {
-		document.getElementById("damageModal").style.display = "block";
-
-		document.getElementById("damage_entry_date").value =
-			new Date().toISOString().split('T')[0];
-	});
+    document.getElementById("damageModal").style.display = "block";
+});
 
 function closeDamageModal() {
     document.getElementById("damageModal").style.display = "none";
@@ -844,17 +830,15 @@ window.addEventListener("click", function (event) {
     const no_of_trays = parseInt(document.getElementById("damage_no_of_trays").value) || 0;
     const no_of_loose_eggs = parseInt(document.getElementById("damage_no_of_loose_Eggs").value) || 0;
     const sale = document.getElementById("damage_sale").value;
-	const entry_date = document.getElementById("damage_entry_date").value;
 
     const no_of_eggs = (no_of_trays * 30) + no_of_loose_eggs;
 
     const payload = {
-	  client_id: clientId,
-	  date: entry_date,
-	  shead_name,
-	  no_of_eggs,
-	  sale,
-	};
+      client_id: clientId,
+      shead_name,
+      no_of_eggs,
+      sale,
+    };
 
     try {
       const response = await fetch("https://sunfra.com/farm/sunfra/egg_godown/egg_godown_sale_damage_save.php", {
@@ -869,7 +853,7 @@ window.addEventListener("click", function (event) {
       if (result.success || result.status === "success") {
         alert("Damage egg entry saved successfully!");
         closeDamageModal();
-        fetchEggData(); 
+        fetchEggData(); // Refresh the table
       } else {
         alert("Failed to save damage entry: " + (result.message || "Unknown error"));
       }
@@ -878,12 +862,12 @@ window.addEventListener("click", function (event) {
       alert("Error while saving damage entry.");
     }
   });const sidebar = document.getElementById('sidebar');
-	const mainContent = document.querySelector('.content'); 
+	const mainContent = document.querySelector('.content'); // or '.main-content'
 	const toggleBtn = document.getElementById('sidebarToggleBtn');
 
 	toggleBtn.addEventListener('click', () => {
 	  sidebar.classList.toggle('expanded');
-	  mainContent.classList.toggle('expanded'); 
+	  mainContent.classList.toggle('expanded');  // toggle expanded class for margin shift
 
 	  const icon = toggleBtn.querySelector('i');
 	  if (sidebar.classList.contains('expanded')) {

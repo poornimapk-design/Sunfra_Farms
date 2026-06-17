@@ -409,6 +409,7 @@ $client_id = $_SESSION['client_id'];
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/feed_raw_material_json_to_web.php'">📥 Feed Raw Material</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/feed_to_shead_json_to_web.php'">🚚 Feed Material To Shead</button>
       <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/water_medicine_json_to_web.php'">🧪 Water Medicine</button>
+	  <button onclick="location.href='https://sunfra.com/farm/sunfra/feedrawmaterial/dosing_pump_live_dashboard.php'">Dosing pump system</button>
     </div>
   </div>
 
